@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <title>Hi/Lo Game</title>
+    <script type = "text/javascript" src="hiLo.js"></script>
+    <link rel="stylesheet" type="text/css" href="hiLo.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </head>
+  <body id="bod">
+    <div class="container">
+    <h1 id="head"> Hi/Lo Game </h1>
+    <p>Welcome to the Hi/Lo game!</p>
+    <p>We will generate a number between 1 and 100, it is up to you to figure it out. You will have seven guesses, and after each guess we will tell you if your number is higher, lower or equal to our number. Press "start" to begin the game!</p>
+    <input type ="button" id="startGame" value="Start" />
+    <p></p>
+    <input id="guess" type="text" placeholder="Enter Your Guess" />
+    <input type="button" id="button" value="Submit"/>
+    <p id="answer">Answer: </p>
+    <p><ol id="prevGuess">Your Past guesses: </ol></p>
+  </div>
+  </body>
+</html>

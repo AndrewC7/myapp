@@ -1,0 +1,67 @@
+.red {
+  color: red;
+}
+#bod{
+  background-image: url("https://media.giphy.com/media/v3uuUlRHeHXhe/giphy.gif");
+  color: white;
+}
+
+#head {
+  -webkit-text-stroke: 1px black;
+  text-align: center;
+  font-size: 80px;
+  color: cyan;
+  margin-top: 190px;
+  margin-left: 270px;
+  margin-right: 270px;
+  text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+p {
+  -webkit-text-stroke: 1px black;
+  font-size: 30px;
+  color: #00ff66;
+  text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+#answer {
+  font-size: 40px;
+  -webkit-text-stroke: 1px black;
+  text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+ #prevGuess {
+  font-size: 40px;
+  color: 	#ff0097;
+  -webkit-text-stroke: 1px black;
+  text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+#startGame, #button {
+  background-color: 	#e3ff00;
+  color: black;
+}
+
+#guess {
+  color: #bd00ff;
+}
